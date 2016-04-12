@@ -1,2 +1,2 @@
-# CSSinceFormatter
-A NSFormatter subclass that formats time intervals in a human readable form.
+# CSOddFormatters
+A collection of useful NSFormatter subclasses

@@ -1,6 +1,6 @@
 //
-//  CSSinceFormattertests.m
-//  CSSinceFormatter
+//  CSOddFormatterstests.m
+//  CSOddFormatters
 //
 //  Created by Cătălin Stan on 12/04/16.
 //  Copyright © 2016 Cătălin Stan. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface CSSinceFormattertests : XCTestCase
+@interface CSOddFormatterstests : XCTestCase
 
 @end
 
-@implementation CSSinceFormattertests
+@implementation CSOddFormatterstests
 
 - (void)setUp {
     [super setUp];

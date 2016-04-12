@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AD6532461CBD021A005A2D7C"
-               BuildableName = "CSSinceFormatter.framework"
-               BlueprintName = "CSSinceFormatter-tvOS"
-               ReferencedContainer = "container:CSSinceFormatter.xcodeproj">
+               BlueprintIdentifier = "ADC7D9EF1CBCF6B4003E9D1D"
+               BuildableName = "CSOddFormatters.framework"
+               BlueprintName = "CSOddFormatters-OSX"
+               ReferencedContainer = "container:CSOddFormatters.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AD65324F1CBD021A005A2D7C"
-               BuildableName = "CSSinceFormatter-tvOSTests.xctest"
-               BlueprintName = "CSSinceFormatter-tvOSTests"
-               ReferencedContainer = "container:CSSinceFormatter.xcodeproj">
+               BlueprintIdentifier = "ADC7D9F91CBCF6B4003E9D1D"
+               BuildableName = "CSOddFormatters.xctest"
+               BlueprintName = "CSOddFormattersTests"
+               ReferencedContainer = "container:CSOddFormatters.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AD6532461CBD021A005A2D7C"
-            BuildableName = "CSSinceFormatter.framework"
-            BlueprintName = "CSSinceFormatter-tvOS"
-            ReferencedContainer = "container:CSSinceFormatter.xcodeproj">
+            BlueprintIdentifier = "ADC7D9EF1CBCF6B4003E9D1D"
+            BuildableName = "CSOddFormatters.framework"
+            BlueprintName = "CSOddFormatters-OSX"
+            ReferencedContainer = "container:CSOddFormatters.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,10 +64,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AD6532461CBD021A005A2D7C"
-            BuildableName = "CSSinceFormatter.framework"
-            BlueprintName = "CSSinceFormatter-tvOS"
-            ReferencedContainer = "container:CSSinceFormatter.xcodeproj">
+            BlueprintIdentifier = "ADC7D9EF1CBCF6B4003E9D1D"
+            BuildableName = "CSOddFormatters.framework"
+            BlueprintName = "CSOddFormatters-OSX"
+            ReferencedContainer = "container:CSOddFormatters.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,10 +82,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AD6532461CBD021A005A2D7C"
-            BuildableName = "CSSinceFormatter.framework"
-            BlueprintName = "CSSinceFormatter-tvOS"
-            ReferencedContainer = "container:CSSinceFormatter.xcodeproj">
+            BlueprintIdentifier = "ADC7D9EF1CBCF6B4003E9D1D"
+            BuildableName = "CSOddFormatters.framework"
+            BlueprintName = "CSOddFormatters-OSX"
+            ReferencedContainer = "container:CSOddFormatters.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
