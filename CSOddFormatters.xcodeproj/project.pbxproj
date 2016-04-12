@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD6532181CBD0194005A2D7C /* CSOddFormatters.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6532171CBD0194005A2D7C /* CSOddFormatters.m */; };
+		AD4F00AD1CBD67770074C4E2 /* CSTimeIntervalFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4F00AB1CBD67770074C4E2 /* CSTimeIntervalFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F00AE1CBD67770074C4E2 /* CSTimeIntervalFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4F00AC1CBD67770074C4E2 /* CSTimeIntervalFormatter.m */; };
+		AD4F00AF1CBD677D0074C4E2 /* CSTimeIntervalFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4F00AB1CBD67770074C4E2 /* CSTimeIntervalFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F00B01CBD677E0074C4E2 /* CSTimeIntervalFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4F00AB1CBD67770074C4E2 /* CSTimeIntervalFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F00B11CBD677F0074C4E2 /* CSTimeIntervalFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4F00AB1CBD67770074C4E2 /* CSTimeIntervalFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD6532281CBD01CD005A2D7C /* CSOddFormatters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD65321E1CBD01CD005A2D7C /* CSOddFormatters.framework */; };
 		AD6532511CBD021A005A2D7C /* CSOddFormatters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6532471CBD021A005A2D7C /* CSOddFormatters.framework */; };
 		AD65325E1CBD0221005A2D7C /* CSOddFormatters.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC7D9F31CBCF6B4003E9D1D /* CSOddFormatters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD65325F1CBD0222005A2D7C /* CSOddFormatters.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC7D9F31CBCF6B4003E9D1D /* CSOddFormatters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD6532601CBD0223005A2D7C /* CSOddFormatters.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC7D9F31CBCF6B4003E9D1D /* CSOddFormatters.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD6532611CBD022F005A2D7C /* CSOddFormatters.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6532171CBD0194005A2D7C /* CSOddFormatters.m */; };
-		AD6532631CBD0232005A2D7C /* CSOddFormatters.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6532171CBD0194005A2D7C /* CSOddFormatters.m */; };
 		ADC7D9F41CBCF6B4003E9D1D /* CSOddFormatters.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC7D9F31CBCF6B4003E9D1D /* CSOddFormatters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADC7D9FB1CBCF6B4003E9D1D /* CSOddFormatters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC7D9F01CBCF6B4003E9D1D /* CSOddFormatters.framework */; };
+		ADD3DCDB1CBDA015007CAD2F /* CSTimeIntervalFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD3DCDA1CBDA015007CAD2F /* CSTimeIntervalFormatterTests.m */; };
+		ADD3DCDC1CBDA68B007CAD2F /* CSTimeIntervalFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD3DCDA1CBDA015007CAD2F /* CSTimeIntervalFormatterTests.m */; };
+		ADD3DCDD1CBDA68C007CAD2F /* CSTimeIntervalFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD3DCDA1CBDA015007CAD2F /* CSTimeIntervalFormatterTests.m */; };
+		ADD3DCDE1CBDA6B9007CAD2F /* CSTimeIntervalFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4F00AC1CBD67770074C4E2 /* CSTimeIntervalFormatter.m */; };
+		ADD3DCDF1CBDA6BA007CAD2F /* CSTimeIntervalFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4F00AC1CBD67770074C4E2 /* CSTimeIntervalFormatter.m */; };
+		ADD3DCE01CBDA6BB007CAD2F /* CSTimeIntervalFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4F00AC1CBD67770074C4E2 /* CSTimeIntervalFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AD6532171CBD0194005A2D7C /* CSOddFormatters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSOddFormatters.m; sourceTree = "<group>"; };
+		AD4F00AB1CBD67770074C4E2 /* CSTimeIntervalFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSTimeIntervalFormatter.h; sourceTree = "<group>"; };
+		AD4F00AC1CBD67770074C4E2 /* CSTimeIntervalFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSTimeIntervalFormatter.m; sourceTree = "<group>"; };
 		AD65321E1CBD01CD005A2D7C /* CSOddFormatters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSOddFormatters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6532271CBD01CD005A2D7C /* CSOddFormatters.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSOddFormatters.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD65323A1CBD01DF005A2D7C /* CSOddFormatters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSOddFormatters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +64,7 @@
 		ADC7D9F51CBCF6B4003E9D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADC7D9FA1CBCF6B4003E9D1D /* CSOddFormatters.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSOddFormatters.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC7DA011CBCF6B4003E9D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD3DCDA1CBDA015007CAD2F /* CSTimeIntervalFormatterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSTimeIntervalFormatterTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +123,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD4F00B21CBD67920074C4E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADC7D9F51CBCF6B4003E9D1D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD4F00B31CBD67A30074C4E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADC7DA011CBCF6B4003E9D1D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		ADC7D9E61CBCF6B4003E9D1D = {
 			isa = PBXGroup;
 			children = (
@@ -140,19 +166,19 @@
 			isa = PBXGroup;
 			children = (
 				ADC7D9F31CBCF6B4003E9D1D /* CSOddFormatters.h */,
-				ADC7D9F51CBCF6B4003E9D1D /* Info.plist */,
+				AD4F00AB1CBD67770074C4E2 /* CSTimeIntervalFormatter.h */,
+				AD4F00AC1CBD67770074C4E2 /* CSTimeIntervalFormatter.m */,
+				AD4F00B21CBD67920074C4E2 /* Supporting Files */,
 			);
-			name = CSOddFormatters;
 			path = CSOddFormatters;
 			sourceTree = "<group>";
 		};
 		ADC7D9FE1CBCF6B4003E9D1D /* CSOddFormattersTests */ = {
 			isa = PBXGroup;
 			children = (
-				AD6532171CBD0194005A2D7C /* CSOddFormatters.m */,
-				ADC7DA011CBCF6B4003E9D1D /* Info.plist */,
+				ADD3DCDA1CBDA015007CAD2F /* CSTimeIntervalFormatterTests.m */,
+				AD4F00B31CBD67A30074C4E2 /* Supporting Files */,
 			);
-			name = CSOddFormattersTests;
 			path = CSOddFormattersTests;
 			sourceTree = "<group>";
 		};
@@ -164,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD65325E1CBD0221005A2D7C /* CSOddFormatters.h in Headers */,
+				AD4F00AF1CBD677D0074C4E2 /* CSTimeIntervalFormatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD65325F1CBD0222005A2D7C /* CSOddFormatters.h in Headers */,
+				AD4F00B11CBD677F0074C4E2 /* CSTimeIntervalFormatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD6532601CBD0223005A2D7C /* CSOddFormatters.h in Headers */,
+				AD4F00B01CBD677E0074C4E2 /* CSTimeIntervalFormatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADC7D9F41CBCF6B4003E9D1D /* CSOddFormatters.h in Headers */,
+				AD4F00AD1CBD67770074C4E2 /* CSTimeIntervalFormatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +332,9 @@
 			productReference = ADC7D9F01CBCF6B4003E9D1D /* CSOddFormatters.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		ADC7D9F91CBCF6B4003E9D1D /* CSOddFormattersTests */ = {
+		ADC7D9F91CBCF6B4003E9D1D /* CSOddFormattersTests-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADC7DA071CBCF6B5003E9D1D /* Build configuration list for PBXNativeTarget "CSOddFormattersTests" */;
+			buildConfigurationList = ADC7DA071CBCF6B5003E9D1D /* Build configuration list for PBXNativeTarget "CSOddFormattersTests-OSX" */;
 			buildPhases = (
 				ADC7D9F61CBCF6B4003E9D1D /* Sources */,
 				ADC7D9F71CBCF6B4003E9D1D /* Frameworks */,
@@ -315,7 +345,7 @@
 			dependencies = (
 				ADC7D9FD1CBCF6B4003E9D1D /* PBXTargetDependency */,
 			);
-			name = CSOddFormattersTests;
+			name = "CSOddFormattersTests-OSX";
 			productName = CSOddFormattersTests;
 			productReference = ADC7D9FA1CBCF6B4003E9D1D /* CSOddFormatters.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -367,7 +397,7 @@
 			projectRoot = "";
 			targets = (
 				ADC7D9EF1CBCF6B4003E9D1D /* CSOddFormatters-OSX */,
-				ADC7D9F91CBCF6B4003E9D1D /* CSOddFormattersTests */,
+				ADC7D9F91CBCF6B4003E9D1D /* CSOddFormattersTests-OSX */,
 				AD65321D1CBD01CD005A2D7C /* CSOddFormatters-iOS */,
 				AD6532261CBD01CD005A2D7C /* CSOddFormatters-iOSTests */,
 				AD6532461CBD021A005A2D7C /* CSOddFormatters-tvOS */,
@@ -434,6 +464,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADD3DCDE1CBDA6B9007CAD2F /* CSTimeIntervalFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +472,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD6532611CBD022F005A2D7C /* CSOddFormatters.m in Sources */,
+				ADD3DCDC1CBDA68B007CAD2F /* CSTimeIntervalFormatterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +480,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADD3DCE01CBDA6BB007CAD2F /* CSTimeIntervalFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +488,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADD3DCDF1CBDA6BA007CAD2F /* CSTimeIntervalFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,7 +496,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD6532631CBD0232005A2D7C /* CSOddFormatters.m in Sources */,
+				ADD3DCDD1CBDA68C007CAD2F /* CSTimeIntervalFormatterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +504,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD4F00AE1CBD67770074C4E2 /* CSTimeIntervalFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,7 +512,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD6532181CBD0194005A2D7C /* CSOddFormatters.m in Sources */,
+				ADD3DCDB1CBDA015007CAD2F /* CSTimeIntervalFormatterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +580,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "CSOddFormatters-iOSTests/Info.plist";
+				INFOPLIST_FILE = CSOddFormattersTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.criollo.CSOddFormatters-iOSTests";
@@ -559,7 +593,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "CSOddFormatters-iOSTests/Info.plist";
+				INFOPLIST_FILE = CSOddFormattersTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.criollo.CSOddFormatters-iOSTests";
@@ -644,7 +678,7 @@
 		AD65325C1CBD021A005A2D7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "CSOddFormatters-tvOSTests/Info.plist";
+				INFOPLIST_FILE = CSOddFormattersTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.criollo.CSOddFormatters-tvOSTests";
 				PRODUCT_NAME = CSOddFormatters;
@@ -656,7 +690,7 @@
 		AD65325D1CBD021A005A2D7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "CSOddFormatters-tvOSTests/Info.plist";
+				INFOPLIST_FILE = CSOddFormattersTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.criollo.CSOddFormatters-tvOSTests";
 				PRODUCT_NAME = CSOddFormatters;
@@ -880,7 +914,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADC7DA071CBCF6B5003E9D1D /* Build configuration list for PBXNativeTarget "CSOddFormattersTests" */ = {
+		ADC7DA071CBCF6B5003E9D1D /* Build configuration list for PBXNativeTarget "CSOddFormattersTests-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADC7DA081CBCF6B5003E9D1D /* Debug */,

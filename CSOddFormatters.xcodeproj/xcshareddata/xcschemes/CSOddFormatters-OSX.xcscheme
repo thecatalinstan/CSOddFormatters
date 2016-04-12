@@ -26,7 +26,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -34,7 +35,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ADC7D9F91CBCF6B4003E9D1D"
                BuildableName = "CSOddFormatters.xctest"
-               BlueprintName = "CSOddFormattersTests"
+               BlueprintName = "CSOddFormattersTests-OSX"
                ReferencedContainer = "container:CSOddFormatters.xcodeproj">
             </BuildableReference>
          </TestableReference>
