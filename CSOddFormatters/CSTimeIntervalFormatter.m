@@ -8,11 +8,13 @@
 
 #import "CSTimeIntervalFormatter.h"
 
+NS_ASSUME_NONNULL_BEGIN
 @interface CSTimeIntervalFormatter ()
 
-+ (nonnull CSTimeIntervalFormatter *)sharedFormatter;
++ (instancetype)sharedFormatter;
 
 @end
+NS_ASSUME_NONNULL_END
 
 @implementation CSTimeIntervalFormatter
 

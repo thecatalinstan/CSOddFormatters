@@ -9,10 +9,16 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
+
 /**
  A subclass of `NSDateComponentsFormatter` that makes it a bit easier and more 
  reliable to format time interval when dealing with a high volume of concurrent 
  requests.
+ 
+ The preffered way of using it is through the class methods
+ `stringFromTimeInterval:`, `stringFromDate:toDate:` and 
+ `stringFromDateComponents:`, but it can also be used as any regular 
+ `NSDateComponentsFormatter`.
  */
 @interface CSTimeIntervalFormatter : NSDateComponentsFormatter
 
