@@ -17,6 +17,17 @@
 		AD65325E1CBD0221005A2D7C /* CSOddFormatters.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC7D9F31CBCF6B4003E9D1D /* CSOddFormatters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD65325F1CBD0222005A2D7C /* CSOddFormatters.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC7D9F31CBCF6B4003E9D1D /* CSOddFormatters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD6532601CBD0223005A2D7C /* CSOddFormatters.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC7D9F31CBCF6B4003E9D1D /* CSOddFormatters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADB5A9C31CBE29B200436AE3 /* CSLargeNumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB5A9C11CBE29B200436AE3 /* CSLargeNumberFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADB5A9C41CBE29B200436AE3 /* CSLargeNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB5A9C21CBE29B200436AE3 /* CSLargeNumberFormatter.m */; };
+		ADB5A9C51CBE29B900436AE3 /* CSLargeNumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB5A9C11CBE29B200436AE3 /* CSLargeNumberFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADB5A9C61CBE29BA00436AE3 /* CSLargeNumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB5A9C11CBE29B200436AE3 /* CSLargeNumberFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADB5A9C71CBE29BB00436AE3 /* CSLargeNumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB5A9C11CBE29B200436AE3 /* CSLargeNumberFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADB5A9C81CBE29CD00436AE3 /* CSLargeNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB5A9C21CBE29B200436AE3 /* CSLargeNumberFormatter.m */; };
+		ADB5A9C91CBE29CE00436AE3 /* CSLargeNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB5A9C21CBE29B200436AE3 /* CSLargeNumberFormatter.m */; };
+		ADB5A9CA1CBE29CF00436AE3 /* CSLargeNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB5A9C21CBE29B200436AE3 /* CSLargeNumberFormatter.m */; };
+		ADB5A9CC1CBE4B0D00436AE3 /* CSLargeNumberFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB5A9CB1CBE4B0D00436AE3 /* CSLargeNumberFormatterTests.m */; };
+		ADB5A9CD1CBE4B0D00436AE3 /* CSLargeNumberFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB5A9CB1CBE4B0D00436AE3 /* CSLargeNumberFormatterTests.m */; };
+		ADB5A9CE1CBE4B0D00436AE3 /* CSLargeNumberFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB5A9CB1CBE4B0D00436AE3 /* CSLargeNumberFormatterTests.m */; };
 		ADC7D9F41CBCF6B4003E9D1D /* CSOddFormatters.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC7D9F31CBCF6B4003E9D1D /* CSOddFormatters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADC7D9FB1CBCF6B4003E9D1D /* CSOddFormatters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC7D9F01CBCF6B4003E9D1D /* CSOddFormatters.framework */; };
 		ADD3DCDB1CBDA015007CAD2F /* CSTimeIntervalFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD3DCDA1CBDA015007CAD2F /* CSTimeIntervalFormatterTests.m */; };
@@ -59,6 +70,9 @@
 		AD65323A1CBD01DF005A2D7C /* CSOddFormatters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSOddFormatters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6532471CBD021A005A2D7C /* CSOddFormatters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSOddFormatters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6532501CBD021A005A2D7C /* CSOddFormatters.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSOddFormatters.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB5A9C11CBE29B200436AE3 /* CSLargeNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLargeNumberFormatter.h; sourceTree = "<group>"; };
+		ADB5A9C21CBE29B200436AE3 /* CSLargeNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLargeNumberFormatter.m; sourceTree = "<group>"; };
+		ADB5A9CB1CBE4B0D00436AE3 /* CSLargeNumberFormatterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLargeNumberFormatterTests.m; sourceTree = "<group>"; };
 		ADC7D9F01CBCF6B4003E9D1D /* CSOddFormatters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSOddFormatters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC7D9F31CBCF6B4003E9D1D /* CSOddFormatters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSOddFormatters.h; sourceTree = "<group>"; };
 		ADC7D9F51CBCF6B4003E9D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -168,6 +182,8 @@
 				ADC7D9F31CBCF6B4003E9D1D /* CSOddFormatters.h */,
 				AD4F00AB1CBD67770074C4E2 /* CSTimeIntervalFormatter.h */,
 				AD4F00AC1CBD67770074C4E2 /* CSTimeIntervalFormatter.m */,
+				ADB5A9C11CBE29B200436AE3 /* CSLargeNumberFormatter.h */,
+				ADB5A9C21CBE29B200436AE3 /* CSLargeNumberFormatter.m */,
 				AD4F00B21CBD67920074C4E2 /* Supporting Files */,
 			);
 			path = CSOddFormatters;
@@ -177,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				ADD3DCDA1CBDA015007CAD2F /* CSTimeIntervalFormatterTests.m */,
+				ADB5A9CB1CBE4B0D00436AE3 /* CSLargeNumberFormatterTests.m */,
 				AD4F00B31CBD67A30074C4E2 /* Supporting Files */,
 			);
 			path = CSOddFormattersTests;
@@ -190,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD65325E1CBD0221005A2D7C /* CSOddFormatters.h in Headers */,
+				ADB5A9C51CBE29B900436AE3 /* CSLargeNumberFormatter.h in Headers */,
 				AD4F00AF1CBD677D0074C4E2 /* CSTimeIntervalFormatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD65325F1CBD0222005A2D7C /* CSOddFormatters.h in Headers */,
+				ADB5A9C71CBE29BB00436AE3 /* CSLargeNumberFormatter.h in Headers */,
 				AD4F00B11CBD677F0074C4E2 /* CSTimeIntervalFormatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD6532601CBD0223005A2D7C /* CSOddFormatters.h in Headers */,
+				ADB5A9C61CBE29BA00436AE3 /* CSLargeNumberFormatter.h in Headers */,
 				AD4F00B01CBD677E0074C4E2 /* CSTimeIntervalFormatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADC7D9F41CBCF6B4003E9D1D /* CSOddFormatters.h in Headers */,
+				ADB5A9C31CBE29B200436AE3 /* CSLargeNumberFormatter.h in Headers */,
 				AD4F00AD1CBD67770074C4E2 /* CSTimeIntervalFormatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,6 +486,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADD3DCDE1CBDA6B9007CAD2F /* CSTimeIntervalFormatter.m in Sources */,
+				ADB5A9C81CBE29CD00436AE3 /* CSLargeNumberFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +495,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADD3DCDC1CBDA68B007CAD2F /* CSTimeIntervalFormatterTests.m in Sources */,
+				ADB5A9CD1CBE4B0D00436AE3 /* CSLargeNumberFormatterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +504,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADD3DCE01CBDA6BB007CAD2F /* CSTimeIntervalFormatter.m in Sources */,
+				ADB5A9CA1CBE29CF00436AE3 /* CSLargeNumberFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +513,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADD3DCDF1CBDA6BA007CAD2F /* CSTimeIntervalFormatter.m in Sources */,
+				ADB5A9C91CBE29CE00436AE3 /* CSLargeNumberFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +522,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADD3DCDD1CBDA68C007CAD2F /* CSTimeIntervalFormatterTests.m in Sources */,
+				ADB5A9CE1CBE4B0D00436AE3 /* CSLargeNumberFormatterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +531,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD4F00AE1CBD67770074C4E2 /* CSTimeIntervalFormatter.m in Sources */,
+				ADB5A9C41CBE29B200436AE3 /* CSLargeNumberFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +540,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADD3DCDB1CBDA015007CAD2F /* CSTimeIntervalFormatterTests.m in Sources */,
+				ADB5A9CC1CBE4B0D00436AE3 /* CSLargeNumberFormatterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
