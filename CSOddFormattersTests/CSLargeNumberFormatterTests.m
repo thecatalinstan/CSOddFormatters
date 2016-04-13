@@ -68,9 +68,17 @@
     XCTAssertNotNil([CSLargeNumberFormatter numberFromString:@(-UINTMAX_MAX).stringValue]);
 }
 
+- (void)testNumberFromStringIsNull {
+    XCTAssertNil([CSLargeNumberFormatter numberFromString:@""]);
+    XCTAssertNil([CSLargeNumberFormatter numberFromString:[NSUUID UUID].UUIDString]);
+}
+
 - (void)testNumberFromStringResult {
     [self.units enumerateObjectsUsingBlock:^(NSString * _Nonnull unit, NSUInteger idx, BOOL * _Nonnull stop) {
         NSDecimalNumber * expectedNumber = [[[NSDecimalNumber decimalNumberWithString:@"1000"] decimalNumberByRaisingToPower:idx] decimalNumberByMultiplyingByPowerOf10:2];
+
+        XCTAssertNoThrow([CSLargeNumberFormatter stringFromNumber:expectedNumber]);
+        XCTAssertNotNil([CSLargeNumberFormatter stringFromNumber:expectedNumber]);
         NSString * formattedString = [CSLargeNumberFormatter stringFromNumber:expectedNumber];
 
         XCTAssertNoThrow([CSLargeNumberFormatter numberFromString:formattedString]);

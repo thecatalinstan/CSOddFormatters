@@ -99,7 +99,17 @@ NS_ASSUME_NONNULL_END
     if ( self.doNotUseHumanReadableUnits ) {
         number = [super numberFromString:string];
     } else {
-        @throw [NSException exceptionWithName:NSInternalInconsistencyException reason:@"Not implemented" userInfo:nil];
+        string = [string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+
+        NSArray <NSString *> * components = [string componentsSeparatedByString:@" "];
+        if ( components.count < 2 ) {
+            number = [super numberFromString:string];
+        } else {
+            NSDecimalNumber * base = [NSDecimalNumber decimalNumberWithString:@"1000"];
+            NSString * unit = components[1];
+            NSUInteger powerOf1000 = unit.length == 0 ? 0 : MIN([[CSLargeNumberFormatter units] indexOfObject:unit], [CSLargeNumberFormatter units].count - 1);
+            number = [[NSDecimalNumber decimalNumberWithString:components[0]] decimalNumberByMultiplyingBy:[base decimalNumberByRaisingToPower:powerOf1000]];
+        }
     }
     return number;
 }
