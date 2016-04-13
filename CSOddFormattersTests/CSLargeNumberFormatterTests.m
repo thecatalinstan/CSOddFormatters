@@ -27,16 +27,16 @@
     [super tearDown];
 }
 
-- (void)testStringFromNumberNotNull {
-    XCTAssertNotNil([CSLargeNumberFormatter stringFromNumber:@(arc4random())]);
-    XCTAssertNotNil([CSLargeNumberFormatter stringFromNumber:@(UINTMAX_MAX)]);
-    XCTAssertNotNil([CSLargeNumberFormatter stringFromNumber:@(-UINTMAX_MAX)]);
-}
-
 - (void)testStringFromNumberNoThrow {
     XCTAssertNoThrow([CSLargeNumberFormatter stringFromNumber:@(arc4random())]);
     XCTAssertNoThrow([CSLargeNumberFormatter stringFromNumber:@(UINTMAX_MAX)]);
     XCTAssertNoThrow([CSLargeNumberFormatter stringFromNumber:@(-UINTMAX_MAX)]);
+}
+
+- (void)testStringFromNumberNotNull {
+    XCTAssertNotNil([CSLargeNumberFormatter stringFromNumber:@(arc4random())]);
+    XCTAssertNotNil([CSLargeNumberFormatter stringFromNumber:@(UINTMAX_MAX)]);
+    XCTAssertNotNil([CSLargeNumberFormatter stringFromNumber:@(-UINTMAX_MAX)]);
 }
 
 - (void)testStringFromNumberResult {
@@ -51,23 +51,39 @@
 
         NSString* formattedString = [CSLargeNumberFormatter stringFromNumber:number];
         NSString* expectedString = [[NSString stringWithFormat:@"100 %@", self.units[idx]] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
-//        NSString* desc = [NSString stringWithFormat:@"%lu) %@ = %@ = %@", idx, number, formattedString, expectedString];
-//        NSLog(@"%@", desc);
+        NSLog(@"%lu) %@ = %@ = %@", idx, number, formattedString, expectedString);
         XCTAssertTrue([formattedString isEqualToString:expectedString]);
-
     }];
 }
 
-- (void)testNumberFromStringNotNull {
-
+- (void)testNumberFromStringNoThrow {
+    XCTAssertNoThrow([CSLargeNumberFormatter numberFromString:@(arc4random()).stringValue]);
+    XCTAssertNoThrow([CSLargeNumberFormatter numberFromString:@(UINTMAX_MAX).stringValue]);
+    XCTAssertNoThrow([CSLargeNumberFormatter numberFromString:@(-UINTMAX_MAX).stringValue]);
 }
 
-- (void)testNumberFromStringNoThrow {
-
+- (void)testNumberFromStringNotNull {
+    XCTAssertNotNil([CSLargeNumberFormatter numberFromString:@(arc4random()).stringValue]);
+    XCTAssertNotNil([CSLargeNumberFormatter numberFromString:@(UINTMAX_MAX).stringValue]);
+    XCTAssertNotNil([CSLargeNumberFormatter numberFromString:@(-UINTMAX_MAX).stringValue]);
 }
 
 - (void)testNumberFromStringResult {
-    
+    [self.units enumerateObjectsUsingBlock:^(NSString * _Nonnull unit, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSDecimalNumber * expectedNumber = [[[NSDecimalNumber decimalNumberWithString:@"1000"] decimalNumberByRaisingToPower:idx] decimalNumberByMultiplyingByPowerOf10:2];
+        NSString * formattedString = [CSLargeNumberFormatter stringFromNumber:expectedNumber];
+
+        XCTAssertNoThrow([CSLargeNumberFormatter numberFromString:formattedString]);
+        XCTAssertNotNil([CSLargeNumberFormatter numberFromString:formattedString]);
+
+        XCTAssertNoThrow(self.units[idx]);
+        XCTAssertNotNil(self.units[idx]);
+
+        NSDecimalNumber * number = (NSDecimalNumber *)[CSLargeNumberFormatter numberFromString:formattedString];
+
+        NSLog(@"%lu) %@ = %@ = %@", idx, formattedString, number, expectedNumber);
+        XCTAssertTrue([number compare:expectedNumber] == NSOrderedSame );
+    }];
 }
 
 
