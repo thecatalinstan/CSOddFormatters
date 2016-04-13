@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   s.module_name                 = "CSOddFormatters"
 
   s.source_files                = "CSOddFormatters/*.{h,m}"
-  s.public_header_files         = "CSOddFormatters/CSOddFormatters.h"
+  s.public_header_files         = "CSOddFormatters/CSOddFormatters.h", "CSOddFormatters/CSTimeIntervalFormatter.h", "CSOddFormatters/CSLargeNumberFormatter.h"
 
-  s.ios.deployment_target       = "6.0"
+  s.ios.deployment_target       = "8.0"
   s.ios.frameworks              = "Foundation"
 
   s.osx.deployment_target       = "10.8"
