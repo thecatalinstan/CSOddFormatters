@@ -13,5 +13,3 @@ FOUNDATION_EXPORT const unsigned char CSOddFormattersVersionString[];
 
 #import <CSOddFormatters/CSTimeIntervalFormatter.h>
 #import <CSOddFormatters/CSLargeNumberFormatter.h>
-
-
