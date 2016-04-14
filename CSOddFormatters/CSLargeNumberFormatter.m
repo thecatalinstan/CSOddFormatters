@@ -12,16 +12,16 @@ NS_ASSUME_NONNULL_BEGIN
 @interface CSLargeNumberFormatter ()
 
 /**
- *  The internal shared instance of the formatter
- *
- *  @return A pre-configured `CSLargeNumberFormatter`
+ The internal shared instance of the formatter
+
+ @return A pre-configured `CSLargeNumberFormatter` instance
  */
 + (instancetype)sharedFormatter;
 
 /**
- *  The array of measurement units to use when formatting
- *
- *  @return An array of units
+ The array of measurement units to use when formatting
+
+ @return An array of units
  */
 + (NSArray<NSString *> *)units;
 
