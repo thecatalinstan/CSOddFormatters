@@ -11,6 +11,11 @@
 NS_ASSUME_NONNULL_BEGIN
 @interface CSTimeIntervalFormatter ()
 
+/**
+ Provides access to the shared `CSTimeIntervalFormatter` instance.
+
+ @return A pre-configured `CSTimeIntervalFormatter` instance.
+ */
 + (instancetype)sharedFormatter;
 
 @end

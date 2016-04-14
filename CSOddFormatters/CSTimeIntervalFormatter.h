@@ -12,8 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  A subclass of `NSDateComponentsFormatter` that makes it a bit easier and more 
- reliable to format time interval when dealing with a high volume of concurrent 
- requests.
+ reliable to format time intervals when dealing with a high volume of concurrent
+ requests, such as in the context of a web-server.
  
  The preffered way of using it is through the class methods
  `stringFromTimeInterval:`, `stringFromDate:toDate:` and 

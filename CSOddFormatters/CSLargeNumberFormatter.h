@@ -40,6 +40,10 @@ NS_ASSUME_NONNULL_BEGIN
 + (nullable NSString *)stringFromNumber:(NSNumber *)number;
 
 /**
+ @name Getting an NSNumber from a Formatted Dtring
+ */
+
+/**
  Returns an `NSNumber` object created by parsing a given string.
 
  @param string An `NSString` object that is parsed to generate the returned
@@ -49,6 +53,10 @@ NS_ASSUME_NONNULL_BEGIN
  of `nil` if there are no numbers in the passed string.
  */
 + (nullable NSNumber *)numberFromString:(NSString *)string;
+
+/**
+ @name Formatting the Output String
+ */
 
 /**
  Determines wether to use the fancy units replacement or to revert to normal 
