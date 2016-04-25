@@ -30,14 +30,15 @@ NS_ASSUME_NONNULL_END
 
 @implementation CSLargeNumberFormatter
 
+static CSLargeNumberFormatter* sharedFormatter;
+
++ (void)initialize {
+    sharedFormatter = [[CSLargeNumberFormatter alloc] init];
+    sharedFormatter.numberStyle = NSNumberFormatterDecimalStyle;
+    sharedFormatter.maximumFractionDigits = 1;
+}
+
 + (instancetype)sharedFormatter {
-    static CSLargeNumberFormatter* sharedFormatter;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        sharedFormatter = [[CSLargeNumberFormatter alloc] init];
-        sharedFormatter.numberStyle = NSNumberFormatterDecimalStyle;
-        sharedFormatter.maximumFractionDigits = 1;
-    });
     return sharedFormatter;
 }
 
