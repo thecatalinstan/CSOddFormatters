@@ -23,17 +23,17 @@ NS_ASSUME_NONNULL_END
 
 @implementation CSTimeIntervalFormatter
 
-+ (CSTimeIntervalFormatter *)sharedFormatter {
-    static CSTimeIntervalFormatter *sharedFormatter;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        sharedFormatter = [[CSTimeIntervalFormatter alloc] init];
-        sharedFormatter.allowedUnits = NSCalendarUnitHour|NSCalendarUnitMinute|NSCalendarUnitSecond|NSCalendarUnitDay|NSCalendarUnitMonth|NSCalendarUnitYear;
-        sharedFormatter.unitsStyle = NSDateComponentsFormatterUnitsStyleAbbreviated;
-        sharedFormatter.includesApproximationPhrase = NO;
-        sharedFormatter.includesTimeRemainingPhrase = NO;
-    });
+static CSTimeIntervalFormatter *sharedFormatter;
 
++ (void)initialize {
+    sharedFormatter = [[CSTimeIntervalFormatter alloc] init];
+    sharedFormatter.allowedUnits = NSCalendarUnitHour|NSCalendarUnitMinute|NSCalendarUnitSecond|NSCalendarUnitDay|NSCalendarUnitMonth|NSCalendarUnitYear;
+    sharedFormatter.unitsStyle = NSDateComponentsFormatterUnitsStyleAbbreviated;
+    sharedFormatter.includesApproximationPhrase = NO;
+    sharedFormatter.includesTimeRemainingPhrase = NO;
+}
+
++ (CSTimeIntervalFormatter *)sharedFormatter {
     return sharedFormatter;
 }
 

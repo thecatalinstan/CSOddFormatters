@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD2E38EA1CCE3EF000EC4DCB /* CSOddFormatters.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AD2E38E91CCE3EF000EC4DCB /* CSOddFormatters.podspec */; };
 		AD4F00AD1CBD67770074C4E2 /* CSTimeIntervalFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4F00AB1CBD67770074C4E2 /* CSTimeIntervalFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD4F00AE1CBD67770074C4E2 /* CSTimeIntervalFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4F00AC1CBD67770074C4E2 /* CSTimeIntervalFormatter.m */; };
 		AD4F00AF1CBD677D0074C4E2 /* CSTimeIntervalFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4F00AB1CBD67770074C4E2 /* CSTimeIntervalFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -63,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD2E38E91CCE3EF000EC4DCB /* CSOddFormatters.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CSOddFormatters.podspec; sourceTree = SOURCE_ROOT; };
 		AD4F00AB1CBD67770074C4E2 /* CSTimeIntervalFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSTimeIntervalFormatter.h; sourceTree = "<group>"; };
 		AD4F00AC1CBD67770074C4E2 /* CSTimeIntervalFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSTimeIntervalFormatter.m; sourceTree = "<group>"; };
 		AD65321E1CBD01CD005A2D7C /* CSOddFormatters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSOddFormatters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +142,7 @@
 		AD4F00B21CBD67920074C4E2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AD2E38E91CCE3EF000EC4DCB /* CSOddFormatters.podspec */,
 				ADC7D9F51CBCF6B4003E9D1D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -468,6 +471,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD2E38EA1CCE3EF000EC4DCB /* CSOddFormatters.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
