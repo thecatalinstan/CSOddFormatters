@@ -8,7 +8,7 @@ This file includes all notable changes to CSOddFormatters.
 
 ## [1.1.1](https://github.com/thecatalinstan/CSOddFormatters/releases/tag/1.1.1) (07/6/2020)  
 
-**Released on Monday, April 25, 2016**. This is a service release that updates copatibility with Xcode 11.5.
+**Released on Monday, April 25, 2016**. This is a service release that updates compatibility with Xcode 11.5.
 
 ## [1.1.0](https://github.com/thecatalinstan/CSOddFormatters/releases/tag/1.1.0) (04/25/2016)
 
