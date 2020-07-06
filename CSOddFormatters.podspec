@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name                        =  "CSOddFormatters"
-  s.version                     =  "1.1.0"
+  s.version                     =  "1.1.1"
   s.license                     =  "MIT"
 
   s.summary                     =  "A collection of useful NSFormatter subclasses."
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target       = "8.0"
   s.ios.frameworks              = "Foundation"
 
-  s.osx.deployment_target       = "10.8"
+  s.osx.deployment_target       = "10.10"
   s.osx.frameworks              = "Foundation"
 
   s.tvos.deployment_target      = "9.0"
